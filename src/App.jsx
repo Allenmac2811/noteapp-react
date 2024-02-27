@@ -6,6 +6,7 @@ import Note from "./Componnets/Note";
 
 function App() {
   const [notes, setNotes] = useState([]);
+
   const addNote = (note) => {
     setNotes((prevNotes) => {
       return [...prevNotes, note];
